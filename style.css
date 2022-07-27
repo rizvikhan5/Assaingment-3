@@ -13,9 +13,8 @@
 }
 .fa-facebook-f, .fa-youtube, .fa-tiktok{
     margin: 20px;
-    font-size: 30px;
-    color:antiquewhite;
-    
+    font-size: 25px;
+    color:aliceblue;
 }
 #btn{
     height: 250px;
@@ -23,5 +22,26 @@
 }
 #ancor{
     font-size: 30px;
+
+}
+@media screen and (max-width:575px) {
+    #conpany{
+        display: none;
+       }
+        
+}
+
     
+
+@media only screen and (min-width:576px) and (max-width:767px){
+   #conpany{
+    display: none;
+   }
+  
+    
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    #conpany{
+        display: none;
+       }
 }
